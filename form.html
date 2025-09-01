@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--unorder list-->
+    <dl>    
+        <form>
+            <input type="text"  name="usernane" >
+            <input type="submit" name="send">
+        </form>
+    </dl>
+    <div class="form-container">
+        <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> 
+         <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+         
+        <label for="gender">gender</label>  
+            <div class="radio.group">
+                <lable><input type="radio" name="gender" value="male"> </lable>
+                <lable><input type="radio" name="gender=" value="female"> </lable>
+           <!--country-->
+               <div class="select">
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select your country</option>
+                        <option value="uk">uk</option>
+                        <option value="india">india</option>
+                        <option value="Usa">Usa</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                    <!--message-->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="write your message here" ></textarea>
+
+                    <button type="submit">Submit</button>
+            
+        
+        </form>  
+            
+        </div>
+    
+</body>
+</body>
+</html>
