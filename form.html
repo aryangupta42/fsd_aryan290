@@ -6,13 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <!--unorder list-->
-    <dl>    
-        <form>
-            <input type="text"  name="usernane" >
-            <input type="submit" name="send">
-        </form>
-    </dl>
+    
     <div class="form-container">
         <form>
         <label for="name">Name:</label>
@@ -25,9 +19,13 @@
          
         <label for="gender">gender</label>  
             <div class="radio.group">
-                <lable><input type="radio" name="gender" value="male"> </lable>
-                <lable><input type="radio" name="gender=" value="female"> </lable>
-           <!--country-->
+                <lable><input type="radio" name="gender" value="male"><option value="male">male</option> 
+                <input type="radio" name="gender=" value="female"> <option value="female">female</option></lable>
+                
+                
+
+              <!--country-->
+              </option>
                <div class="select">
                     <label for="country">Country:</label>
                     <select id="country" name="country" required>
@@ -42,7 +40,12 @@
                     <textarea id="message" name="message" placeholder="write your message here" ></textarea>
 
                     <button type="submit">Submit</button>
-            
+             <!--unorder list-->
+    <dl>    
+        <form>
+            <input type="text"  name="usernane" >
+            <input type="submit" name="send">
+        </form>
         
         </form>  
             
