@@ -1,0 +1,71 @@
+@import url("https://fonts.google.com/specimen/Arima?preview.text=Whereas%20recognition%20of%20the%20inherent%20dignity%20and%20of%20the%20equal%20and%20inalienable%20rights%20of%20all%20members%20of%20the%20human%20family&preview.text_type=custom");
+body {
+    font-family: 'Arima', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header p{
+    padding: 20px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    text-align: center;
+    
+}
+main p{
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: tomato;
+}
+
+footer {
+    background-color: #dbd7e7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.social-icon {
+    margin-top: 10px;
+}
+.social-icon.a {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    vertical-align: middle;
+    transition:color 0.3s ease;
+    
+}
+.social-icon a.youtube:hover {
+    color: #04ff0c;
+}
+.social-icon a.facebook:hover {
+    color: #3b5998;
+}
+.social-icon a.instagram:hover {
+    color: #a1f315;
+}
+.social-icon a.twitter:hover {
+    color: #55acee;
+}
+
+@media(max-width:600px){
+    header{
+        font-size:30px;}
+    }
+    footer{
+        font-size:30px;
+    }
+
+
+}
